@@ -1,7 +1,7 @@
 # EH Science Club 🚧
 
 **Under Construction...** 🛠️  
-We're building something amazing! Stay tuned for the official website of **EH Science Club**, your hub for all things sci-fi.  
+I'm building something amazing! Stay tuned for the official website of **EH Science Club**, your hub for all things sci-fi.  
 
 ---
 
