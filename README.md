@@ -18,6 +18,6 @@ We're building something amazing! Stay tuned for the official website of **EH Sc
 ---
 
 ### 📌 Follow Us  
-🌌 [YouTube: EH Science Club](https://www.youtube.com/@ehscienceclub)  
+🌌 [YouTube: EH Science Club](https://www.youtube.com/@ehscienceclub/featured)  
 
 Stay tuned for updates as we progress with development! ✨
