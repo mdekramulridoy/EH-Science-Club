@@ -15,7 +15,9 @@ const Root = () => {
       <div className="mt-20 lg:mt-40 px-6 lg:mx-20">
         <Outlet />
       </div>
+      <div className="mt-20 lg:mt-40 px-6 lg:mx-20">
       <Footer />
+      </div>
     </div>
   );
 };

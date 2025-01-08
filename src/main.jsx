@@ -6,6 +6,9 @@ import Root from "./Root";
 import Title from "./Component/Title";
 import Home from "./Component/Home";
 import { ThemeProvider } from "./ThemeSwitch/ThemeContext";
+import Tutorials from "./Component/Pages/Tutorials";
+import SciFi from "./Component/Pages/SciFi";
+import Details from "./Component/Pages/Details";
 
 // Router Setup
 const router = createBrowserRouter([
@@ -17,15 +20,42 @@ const router = createBrowserRouter([
         path: "/",
         element: (
           <>
-            <Title title="Home | Md. Ekramul Hoque" />
+            <Title title="EH Science Club" />
             <Home />
+          </>
+        ),
+      },
+      {
+        path: "tutorials",
+        element: (
+          <>
+            <Title title="Tutorials" />
+            <Tutorials></Tutorials>
+          </>
+        ),
+      },
+      {
+        path: "sci-fi",
+        element: (
+          <>
+            <Title title="Sci-Fi" />
+            <SciFi></SciFi>
+          </>
+        ),
+      },
+      {
+        path: "details/:id",
+        element: (
+          <>
+            <Title title="Video Details" />
+            <Details />
           </>
         ),
       },
     ],
   },
   {
-    path: "*", // Catch-all route for 404
+    path: "*", 
     element: (
       <>
         <Title title="Page Not Found" />
@@ -35,10 +65,9 @@ const router = createBrowserRouter([
   },
 ]);
 
-// Render the application
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-     <ThemeProvider> {/* Wrap the whole app inside ThemeProvider */}
+     <ThemeProvider>
       <RouterProvider router={router} />
     </ThemeProvider>
   </StrictMode>
