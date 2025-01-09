@@ -1,8 +1,23 @@
-# React + Vite
+# EH Science Club 🚧
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Under Construction...** 🛠️  
+I'm building something amazing! Stay tuned for the official website of **EH Science Club**, your hub for all things sci-fi.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About  
+🎥 **EH Science Club** is a YouTube channel dedicated to sci-fi content, created with passion during my free time. With 30k subscribers and a growing community, we aim to explore the universe of possibilities.  
+
+---
+
+### 👨‍💻 Current Progress  
+- 🔧 Designing the website structure  
+- 🚀 Integrating sci-fi themes  
+- 📡 Preparing content for launch  
+
+---
+
+### 📌 Follow Us  
+🌌 [YouTube: EH Science Club](https://www.youtube.com/@ehscienceclub/featured)  
+
+Stay tuned for updates as we progress with development! ✨
