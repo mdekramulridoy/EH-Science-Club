@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import { IoSunny, IoMoon } from "react-icons/io5"; 
 import { useTheme } from "../ThemeSwitch/ThemeContext";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const { theme, toggleTheme } = useTheme();
@@ -84,7 +85,7 @@ const Navbar = () => {
     <div className="w-full fixed top-0 bg-[#FF0000] px-4 lg:px-10 py-2 z-50 shadow-md">
       <div className="navbar">
         {/* Navbar Start */}
-        <div className="navbar-start ">
+        <div className="navbar-start">
           <Link to="/" className="flex items-center gap-2">
             <img
               className="lg:w-32 md:w-16 w-14"
@@ -100,20 +101,17 @@ const Navbar = () => {
         </div>
 
         {/* Navbar End */}
-        <div className="navbar-end gap-2 ">
+        <div className="navbar-end gap-2">
           <button
             onClick={toggleTheme}
             className="btn rounded-full btn-ghost text-white border border-white"
             aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
           >
-            <FontAwesomeIcon
-              icon={theme === "dark" ? faSun : faMoon}
-              className="h-5 w-5"
-            />
+            {theme === "dark" ? <IoSunny className="h-5 w-5" /> : <IoMoon className="h-5 w-5" />}
           </button>
 
           {/* Mobile Menu */}
-          <div className="relative lg:hidden md:hidden ">
+          <div className="relative lg:hidden md:hidden">
             <button
               className="btn btn-ghost"
               tabIndex={0}
