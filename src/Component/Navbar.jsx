@@ -51,11 +51,37 @@ const Navbar = () => {
         </NavLink>
         <hr className="border-white my-1" />
       </li>
+      <li>
+        <NavLink
+          to="others"
+          className={({ isActive }) =>
+            `px-2 py-1 ${
+              isActive ? "text-red-500 font-semibold bg-white hover:text-white" : "text-white"
+            }`
+          }
+        >
+          Others
+        </NavLink>
+        <hr className="border-white my-1" />
+      </li>
+      <li>
+        <NavLink
+          to="contact"
+          className={({ isActive }) =>
+            `px-2 py-1 ${
+              isActive ? "text-red-500 font-semibold bg-white hover:text-white" : "text-white"
+            }`
+          }
+        >
+          Contact
+        </NavLink>
+        <hr className="border-white my-1" />
+      </li>
     </>
   );
 
   return (
-    <div className="sticky top-0 bg-[#FF0000] px-4 lg:px-10 py-2 z-50 shadow-md">
+    <div className="w-full fixed top-0 bg-[#FF0000] px-4 lg:px-10 py-2 z-50 shadow-md">
       <div className="navbar">
         {/* Navbar Start */}
         <div className="navbar-start ">

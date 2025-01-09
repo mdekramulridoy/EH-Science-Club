@@ -9,6 +9,8 @@ import { ThemeProvider } from "./ThemeSwitch/ThemeContext";
 import Tutorials from "./Component/Pages/Tutorials";
 import SciFi from "./Component/Pages/SciFi";
 import Details from "./Component/Pages/Details";
+import Others from "./Component/Pages/Others";
+import Contact from "./Component/Pages/Contact";
 
 // Router Setup
 const router = createBrowserRouter([
@@ -44,6 +46,25 @@ const router = createBrowserRouter([
         ),
       },
       {
+        path: "others",
+        element: (
+          <>
+            <Title title="Others" />
+            <Others></Others>
+          </>
+        ),
+      },
+      {
+        path: "contact",
+        element: (
+          <>
+            <Title title="Contact" />
+            <Contact></Contact>
+          </>
+        ),
+      },
+      
+      {
         path: "details/:id",
         element: (
           <>
@@ -54,6 +75,7 @@ const router = createBrowserRouter([
       },
     ],
   },
+  
   {
     path: "*", 
     element: (

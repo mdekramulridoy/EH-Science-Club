@@ -10,12 +10,12 @@ const Root = () => {
 
   return (
     <div className={`min-h-screen ${theme === "dark" ? "night-mode" : ""}`}>
-      {theme === "dark" && <div className="stars"></div>}
       <Navbar />
-      <div className="mt-20 lg:mt-40 px-6 lg:mx-20">
+      {theme === "dark" && <div className="stars"></div>}
+      <div className="min-h-screen mt-32 md:mt-36 lg:mt-48">
         <Outlet />
       </div>
-      <div className="mt-20 lg:mt-40 px-6 lg:mx-20">
+      <div className="">
       <Footer />
       </div>
     </div>
