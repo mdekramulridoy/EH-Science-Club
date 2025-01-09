@@ -1,7 +1,7 @@
 # EH Science Club 🚧
 
 ### 📌 Live Link  
-🌌 [YouTube: EH Science Club](https://eh-science-club.web.app/)  
+🌌 [EH Science Club](https://eh-science-club.web.app/)  
 
 **Under Construction...** 🛠️  
 I'm building something amazing! Stay tuned for the official website of **EH Science Club**, your hub for all things sci-fi.  
