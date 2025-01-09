@@ -17,7 +17,7 @@ I'm building something amazing! Stay tuned for the official website of **EH Scie
 
 ---
 
-### 📌 Follow Us  
+### 📌 Follow me on YouTube  
 🌌 [YouTube: EH Science Club](https://www.youtube.com/@ehscienceclub/featured)  
 
 Stay tuned for updates as we progress with development! ✨
