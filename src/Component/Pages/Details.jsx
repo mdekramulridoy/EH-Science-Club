@@ -22,7 +22,7 @@ const Details = () => {
   const embedUrl = video.videoUrl.replace("watch?v=", "embed/"); // Convert to embed URL
 
   return (
-    <div className="container mx-auto p-4 flex flex-col text-justify">
+    <div className="mt-32 md:mt-36 lg:mt-48 px-6 container mx-auto p-4 flex flex-col text-justify">
       <h1 className="text-3xl font-bold mb-6">{video.title}</h1>
       <div className="mb-6">
         <iframe
