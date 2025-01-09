@@ -47,7 +47,7 @@ const Slider = () => {
       <SwiperSlide>
         <div className="lg:h-[700px] md:h-[500px]">
           <img
-            src="https://i.ibb.co.com/pP53CHX/Galaxy-of-Wars-Gameplay.png"
+            src="https://i.ibb.co.com/VHzCL7w/EHSC-Banneer.jpg"
             alt=""
           />
         </div>
