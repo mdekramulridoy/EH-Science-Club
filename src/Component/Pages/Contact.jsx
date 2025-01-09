@@ -1,14 +1,16 @@
-import React from 'react';
+import React from "react";
+import Slider from "../Slider";
 
 const Contact = () => {
   return (
-    <div className='min-h-screen'>
-      <div>
-        <img src="https://i.ibb.co.com/Bn6W53k/Sunrise-Mountain-Top-Travel-Adventure-Youtube-Channel-Art.jpg" alt="" />
+    <div className="min-h-screen mt-16 md:mt-24 lg:mt-32">
+      <div className="flex flex-col items-center lg:h-[500px]">
+        <Slider></Slider>
       </div>
-      <h1 className='text-center my-6 font-bold text-3xl'>
-        Facebook Page
-      </h1>
+      {/* Slider division */}
+      <div>
+        <h1 className="text-center my-6 font-bold text-3xl">Facebook Page</h1>
+      </div>
     </div>
   );
 };

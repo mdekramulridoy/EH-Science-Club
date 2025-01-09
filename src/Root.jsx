@@ -12,7 +12,7 @@ const Root = () => {
     <div className={`min-h-screen ${theme === "dark" ? "night-mode" : ""}`}>
       <Navbar />
       {theme === "dark" && <div className="stars"></div>}
-      <div className="min-h-screen mt-32 md:mt-36 lg:mt-48">
+      <div className="min-h-screen ">
         <Outlet />
       </div>
       <div className="">
