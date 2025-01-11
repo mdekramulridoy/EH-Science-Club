@@ -39,7 +39,7 @@ const Contact = () => {
               href="https://www.facebook.com/scienceclub.eh/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl  transition p-3 bg-blue-500 hover:bg-blue-600 rounded-lg"
+              className="text-2xl text-white transition p-3 bg-blue-500 hover:bg-blue-600 rounded-lg"
             >
               <FaFacebookF />
             </a>
