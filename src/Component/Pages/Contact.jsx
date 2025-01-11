@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import { FaHandPointRight } from "react-icons/fa";
 
 const Contact = () => {
   const [openFAQ, setOpenFAQ] = useState(null);
@@ -15,15 +17,41 @@ const Contact = () => {
           Get in Touch with Us
         </h1>
 
-        <div className="flex flex-col ">
-          <li className="text-sm md:text-xl text-gray-300">
+        <div className="flex flex-col items-center">
+          <li className="flex items-center text-sm md:text-xl text-gray-300">
+            <FaHandPointRight className="mr-2 text-white" />
             I'm here to answer your questions and connect with you!
           </li>
-          <li className="text-sm md:text-xl text-gray-300">
+          <li className="flex items-center text-sm md:text-xl text-gray-300">
+            <FaHandPointRight className="mr-2 text-white" />
             Give me your valuable feedback that helps me to grow !!
           </li>
-          <a href="https://www.facebook.com/scienceclub.eh" target="_blank" rel="noopener noreferrer" className="text-black font-bold py-s px-4 bg-white my-6 lg:w-2/12 mx-auto rounded-xl border">You can follow me</a>
-
+          <a
+            href="https://www.facebook.com/scienceclub.eh"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-black font-bold py-s px-4 hover:bg-slate-300 hover:white  my-6 lg:w-2/12 mx-auto rounded-xl border"
+          >
+            Follow me
+          </a>
+          <div className="flex justify-center gap-6 mt-4">
+            <a
+              href="https://www.facebook.com/scienceclub.eh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl  transition p-3 bg-blue-500 hover:bg-blue-600 rounded-lg"
+            >
+              <FaFacebookF />
+            </a>
+            <a
+              href="https://www.instagram.com/ehscienceclub/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl text-white transition  p-3 bg-red-500 hover:bg-red-600 rounded-lg"
+            >
+              <FaInstagram />
+            </a>
+          </div>
         </div>
       </div>
       {/* FAQs Section */}
