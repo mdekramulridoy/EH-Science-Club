@@ -4,8 +4,8 @@ import { faFacebookF, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8">
-      <div className="container mx-auto px-4">
+    <footer className="bg-black text-white py-8">
+      <div className="container mx-auto px-4 ">
         {/* Logo and Description */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-6">
           <div className="flex flex-col items-center">
@@ -14,9 +14,6 @@ const Footer = () => {
               alt="EH Science Club Logo"
               className="w-20"
             />
-            {/* <p className="text-sm md:text-base text-center mb-4">
-              Empowering science enthusiasts through <br /> knowledge and innovation.
-            </p> */}
           </div>
 
           {/* Subscribe and Social Buttons */}

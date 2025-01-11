@@ -29,7 +29,7 @@ const Slider = () => {
       className="mySwiper mt-6 md:mt-0 lg:mt-6"
     >
       <SwiperSlide>
-        <div className="lg:h-[700px] md:h-[500px]">
+        <div className="lg:h-[500px] md:h-[400px]">
           <img
             src="https://i.ibb.co.com/Bn6W53k/Sunrise-Mountain-Top-Travel-Adventure-Youtube-Channel-Art.jpg"
             alt=""
@@ -37,7 +37,7 @@ const Slider = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="lg:h-[700px] md:h-[500px]">
+        <div className="lg:h-[500px] md:h-[400px]">
           <img
             src="https://i.ibb.co.com/ThZPyBf/Banner-EHSC.jpg"
             alt=""
@@ -45,7 +45,7 @@ const Slider = () => {
         </div>
       </SwiperSlide>
       <SwiperSlide>
-        <div className="lg:h-[700px] md:h-[500px]">
+        <div className="lg:h-[500px] md:h-[400px]">
           <img
             src="https://i.ibb.co.com/VHzCL7w/EHSC-Banneer.jpg"
             alt=""
