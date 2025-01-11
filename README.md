@@ -1,5 +1,8 @@
 # EH Science Club 🚧
 
+### 📌 Live Link  
+🌌 [EH Science Club](https://eh-science-club.web.app/)  
+
 **Under Construction...** 🛠️  
 I'm building something amazing! Stay tuned for the official website of **EH Science Club**, your hub for all things sci-fi.  
 
@@ -17,7 +20,7 @@ I'm building something amazing! Stay tuned for the official website of **EH Scie
 
 ---
 
-### 📌 Follow Us  
+### 📌 Follow me on YouTube  
 🌌 [YouTube: EH Science Club](https://www.youtube.com/@ehscienceclub/featured)  
 
 Stay tuned for updates as we progress with development! ✨
